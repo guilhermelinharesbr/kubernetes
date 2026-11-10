@@ -10,6 +10,9 @@
 
 O **Kubernetes** é uma plataforma portátil, extensível e de código aberto para gerenciar cargas de trabalho(workloads) e serviços(services) em containeres, facilitando tanto a configuração declarativa quanto a automação.
 
+A palavra kubernetes, tem origem do grego e significa timoneiro.
+
+Uma abreviação muito utilizada para a palavra Kubernetes é **k8s**, o número **8** significa que entre a letra **k** e **s** da palavra kubernetes tem 8 letras.
 
 ---
 

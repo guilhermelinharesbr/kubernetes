@@ -12,6 +12,7 @@ O **Kind** é uma ferramenta para executar clusters Kubernetes locais usando "n�
 
 O kind foi projetado principalmente para testar o próprio Kubernetes, mas também pode ser usado para desenvolvimento local ou integração contínua (CI).
 
+O nome é, na verdade, um acrônimo/título abreviado de "**K**ubernetes **in D**ocker". Como a primeira letra é **K** e as duas últimas formam **ind**, juntou-se tudo formando a sigla **kind**.
 
 ---
 
