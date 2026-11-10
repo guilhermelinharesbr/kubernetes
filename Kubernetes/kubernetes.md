@@ -6,6 +6,7 @@
 - [Arquitetura](#arquitetura)
     - [Control Plane](#control-plane)
     - [Worker Nodes](#worker-nodes)
+        - [pods](#pods)
 
 ---
 
@@ -48,5 +49,11 @@ Os **Worker Nodes** são as máquinas (virtuais ou físicas) onde as suas aplica
 - **Kubelet**: O agente principal que roda no nó, garantindo que os containers estejam rodando dentro de um Pod.
 - **Kube-proxy**: O componente de rede que gerencia as regras de comunicação e tráfego para os serviços.
 - **Runtime de Container**: O motor (como containerd ou **CRI-O**) que executa os containers propriamente ditos.
+
+#### Pods
+
+Um **Pod** é a menor e mais básica unidade de computação que pode-se criar, implantar e gerenciar no Kubernetes.
+
+Para quem vem do Docker, a principal mudança de mentalidade é esta: no Kubernetes, raramente gerencia-se um único container isolado. Gerencia-se Pods, e o Pod é um "casulo" que encapsula um ou mais containers.
 
 ---
