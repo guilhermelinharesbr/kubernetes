@@ -3,7 +3,7 @@
 ### Sumário
 - [Descrição](#descrição)
 - [Endereços na Web](#endereços-na-web)
-- [Instalação]
+- [Instalação](#instalação)
 
 ---
 
@@ -34,6 +34,5 @@ chmod +x kubectl
 # Mover para o PATH
 sudo mv kubectl /usr/local/bin/
 ```
-
 
 ---
